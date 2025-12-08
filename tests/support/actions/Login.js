@@ -1,16 +1,23 @@
 import { expect } from '@playwright/test';
 
-export class LoginPage {
+export class Login {
 
     constructor(page) {
         this.page = page
     }
 
+    async do(email, password, username) {
+      await this.visit()
+      await this.submit(email, password)
+      await this.isLoggedIn(username)
+    }
+
     async visit() {
-        await this.page.goto('http://localhost:3000/admin/login')
+        await this.page.goto('/admin/login')
 
         const longinForm = this.page.locator('.login-form')
         await expect(longinForm).toBeVisible()
+
     }
 
     async submit(email, password) {
@@ -25,4 +32,11 @@ export class LoginPage {
         await expect(alert).toHaveText(text)
     }
 
+     async isLoggedIn(username) {
+        // await this.page.waitForLoadState('networkidle') // aguarda que o network carregue por completo
+        // await expect(this.page).toHaveURL(/.*admin/)
+
+        const loggedUser = this.page.locator('.logged-user')
+        await expect(loggedUser).toHaveText(`Olá, ${username}`)
+    }
 }

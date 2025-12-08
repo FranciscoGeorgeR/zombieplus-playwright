@@ -1,0 +1,1105 @@
+{
+  "config": {
+    "configFile": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\playwright.config.js",
+    "rootDir": "C:/CursosUdemy/QAx/projects/zombieplus/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/CursosUdemy/QAx/projects/zombieplus/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/CursosUdemy/QAx/projects/zombieplus/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "e2e\\leads.spec.js",
+      "file": "e2e/leads.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Deve cadastrar um lead na fila de espera",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1408,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:14.313Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-leads-Deve-cadastrar-um-lead-na-fila-de-espera-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-leads-Deve-cadastrar-um-lead-na-fila-de-espera-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f00ae49f0a4749ec9e1c-eb28e79e852be623ab6a",
+          "file": "e2e/leads.spec.js",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "Não deve cadastrar quando o email já existe",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1373,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:15.883Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-leads-Não-deve-cadastrar-quando-o-email-já-existe-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-leads-Não-deve-cadastrar-quando-o-email-já-existe-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f00ae49f0a4749ec9e1c-e2e08bf3bd3ddb1299bf",
+          "file": "e2e/leads.spec.js",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "Não deve cadastrar com e-mail incorreto",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1206,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:17.272Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-leads-Não-deve-cadastrar-com-e-mail-incorreto-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-leads-Não-deve-cadastrar-com-e-mail-incorreto-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f00ae49f0a4749ec9e1c-778c3a0ab7e8838d2fcc",
+          "file": "e2e/leads.spec.js",
+          "line": 45,
+          "column": 1
+        },
+        {
+          "title": "Não deve cadastrar quando o nome não preenchido",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1123,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:18.490Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-leads-Não-deve-cadastrar-quando-o-nome-não-preenchido-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-leads-Não-deve-cadastrar-quando-o-nome-não-preenchido-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f00ae49f0a4749ec9e1c-ffd413462223055cab1b",
+          "file": "e2e/leads.spec.js",
+          "line": 53,
+          "column": 1
+        },
+        {
+          "title": "Não deve cadastrar quando E-mail não é preenchido",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1078,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:19.626Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-leads-Não-deve-cadastrar-quando-E-mail-não-é-preenchido-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-leads-Não-deve-cadastrar-quando-E-mail-não-é-preenchido-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f00ae49f0a4749ec9e1c-a70406f11c335025a76c",
+          "file": "e2e/leads.spec.js",
+          "line": 61,
+          "column": 1
+        },
+        {
+          "title": "Não deve cadastrar quando nenhum campo é preenchido",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1092,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:20.715Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-leads-Não-deve-cadastr-e6af1-o-nenhum-campo-é-preenchido-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-leads-Não-deve-cadastr-e6af1-o-nenhum-campo-é-preenchido-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f00ae49f0a4749ec9e1c-bb30eaa2e9c1a4665902",
+          "file": "e2e/leads.spec.js",
+          "line": 69,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "e2e\\login.spec.js",
+      "file": "e2e/login.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Deve logar como administrador",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 969,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:14.006Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-login-Deve-logar-como-administrador-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-login-Deve-logar-como-administrador-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ce46b734337c02890a88-a5d9fd6b567ce7527be1",
+          "file": "e2e/login.spec.js",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "Não deve logar com senha incorreta",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 889,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:15.091Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-login-Não-deve-logar-com-senha-incorreta-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-login-Não-deve-logar-com-senha-incorreta-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ce46b734337c02890a88-f449b7345fbbec65c0a2",
+          "file": "e2e/login.spec.js",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "Não deve logar quando email é inválido",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 886,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:15.996Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-login-Não-deve-logar-quando-email-é-inválido-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-login-Não-deve-logar-quando-email-é-inválido-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ce46b734337c02890a88-a9ff198fc389c9e4631a",
+          "file": "e2e/login.spec.js",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "Não deve logar quando email não é preenchido",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 822,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:16.895Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-login-Não-deve-logar-quando-email-não-é-preenchido-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-login-Não-deve-logar-quando-email-não-é-preenchido-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ce46b734337c02890a88-ddda5802f39e0a40f1f9",
+          "file": "e2e/login.spec.js",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "Não deve logar quando a senha não é preenchido",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 799,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:17.730Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-login-Não-deve-logar-quando-a-senha-não-é-preenchido-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-login-Não-deve-logar-quando-a-senha-não-é-preenchido-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ce46b734337c02890a88-f29c7005cf2e70928955",
+          "file": "e2e/login.spec.js",
+          "line": 32,
+          "column": 1
+        },
+        {
+          "title": "Não deve logar quando nenhum campo é preenchido",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 827,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:18.542Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-login-Não-deve-logar-quando-nenhum-campo-é-preenchido-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-login-Não-deve-logar-quando-nenhum-campo-é-preenchido-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ce46b734337c02890a88-796c7dcfaabecbee9680",
+          "file": "e2e/login.spec.js",
+          "line": 39,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "e2e\\movies.spec.js",
+      "file": "e2e/movies.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Deve cadastrar um novo filme",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1474,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:14.055Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-movies-Deve-cadastrar-um-novo-filme-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-movies-Deve-cadastrar-um-novo-filme-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "797174722980718f137c-05f1b6e60bea8732a83f",
+          "file": "e2e/movies.spec.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "Deve poder remover um filme",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1188,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:15.704Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-movies-Deve-poder-remover-um-filme-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-movies-Deve-poder-remover-um-filme-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "797174722980718f137c-fbd174c1b8b3a87de8a8",
+          "file": "e2e/movies.spec.js",
+          "line": 20,
+          "column": 1
+        },
+        {
+          "title": "Não deve cadastrar quando título é duplicado",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 1351,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:16.909Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-movies-Não-deve-cadastrar-quando-título-é-duplicado-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-movies-Não-deve-cadastrar-quando-título-é-duplicado-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "797174722980718f137c-e0153331aef59528b429",
+          "file": "e2e/movies.spec.js",
+          "line": 32,
+          "column": 1
+        },
+        {
+          "title": "Não deve cadastrar quando os campos obrigatorios não são preenchidos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 912,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:18.278Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-movies-Não-deve-cadast-6a2f4-atorios-não-são-preenchidos-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-movies-Não-deve-cadast-6a2f4-atorios-não-são-preenchidos-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "797174722980718f137c-a79dbfe6090b1e703742",
+          "file": "e2e/movies.spec.js",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "Deve realizar buscar pelo termo Zumbi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 916,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:19.201Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-movies-Deve-realizar-buscar-pelo-termo-Zumbi-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-movies-Deve-realizar-buscar-pelo-termo-Zumbi-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "797174722980718f137c-94efc78777732f08ef67",
+          "file": "e2e/movies.spec.js",
+          "line": 60,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "e2e\\tvshows.spec.js",
+      "file": "e2e/tvshows.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Deve ser possível cadastrar uma nova série",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1575,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:14.055Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-tvshows-Deve-ser-possível-cadastrar-uma-nova-série-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-tvshows-Deve-ser-possível-cadastrar-uma-nova-série-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "022ee86a5bb821588942-117cc2cd58b02cabc25d",
+          "file": "e2e/tvshows.spec.js",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "Deve poder remover uma série cadastrada",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1209,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:15.814Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-tvshows-Deve-poder-remover-uma-série-cadastrada-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-tvshows-Deve-poder-remover-uma-série-cadastrada-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "022ee86a5bb821588942-633e5412c8fe539f9283",
+          "file": "e2e/tvshows.spec.js",
+          "line": 20,
+          "column": 1
+        },
+        {
+          "title": "Não permitir o cadastro de séries com títulos já existentes.",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 1421,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:17.041Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-tvshows-Não-permitir-o-5062e--com-títulos-já-existentes--chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-tvshows-Não-permitir-o-5062e--com-títulos-já-existentes--chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "022ee86a5bb821588942-2100c455f80ff10d3f97",
+          "file": "e2e/tvshows.spec.js",
+          "line": 32,
+          "column": 1
+        },
+        {
+          "title": "Garantir que séries não sejam cadastradas sem os campos obrigatórios preenchidos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 977,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:18.475Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-tvshows-Garantir-que-s-031ea-os-obrigatórios-preenchidos-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-tvshows-Garantir-que-s-031ea-os-obrigatórios-preenchidos-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "022ee86a5bb821588942-50d0f20b1b121353569e",
+          "file": "e2e/tvshows.spec.js",
+          "line": 43,
+          "column": 1
+        },
+        {
+          "title": "Deve realizar buscar pelo termo Zumbi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 948,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-12-08T03:22:19.464Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-tvshows-Deve-realizar-buscar-pelo-termo-Zumbi-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\CursosUdemy\\QAx\\projects\\zombieplus\\test-results\\e2e-tvshows-Deve-realizar-buscar-pelo-termo-Zumbi-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "022ee86a5bb821588942-7747d50f51775458348b",
+          "file": "e2e/tvshows.spec.js",
+          "line": 62,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-12-08T03:22:12.819Z",
+    "duration": 9078.517,
+    "expected": 22,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
