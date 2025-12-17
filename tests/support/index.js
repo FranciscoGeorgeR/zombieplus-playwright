@@ -4,7 +4,7 @@ import { Login } from './actions/Login.js'
 import { Popup } from './actions/Components.js'
 import { Movies } from './actions/Movies.js'
 import { Leads } from './actions/Leads.js'
-import { Tvshows } from './actions/tvshows.js';
+import { Tvshows } from './actions/Tvshows.js';
 
 import { Api } from './api'
 
